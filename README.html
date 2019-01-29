@@ -1,0 +1,24 @@
+<h4>Technical Challenge Store application to calculate basket price</h4>
+
+<h3>Design approach and assumptions</h3> 
+<p>
+In this design user will add products in command prompt with product name.
+So quantity is not added at Basket level attribute, rather we count products.
+
+
+As its not mentioned in requirement, for simplicity assuming one product will have one offer.
+Changes needed to current design for supporting One product having multiple offers.
+</p>
+
+<h3>Areas of improvements:</h3>
+
+<p>
+Cart must wrapped as object rather than Map. So that we can have subtotal, total.
+Read CVS file using 3rd party Utility so that data can be read column by column and allow to add special characters.
+</p>
+
+<h3>Command to run the application:</h3>
+<p>
+java -jar application-0.0.1-SNAPSHOT.jar</p>
+
+<p>Need to copy the .cvs files to a location and path of the files need to be changed</p>
